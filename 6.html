@@ -93,7 +93,7 @@ Du behöver sedan ändra ett saker på varje sida.
             <p> ድሕሪ ናይ ቤት ንባብ ዙረት ምወዳእካ ምስዓርክካ ምሳሕ ሃምበርገር ክትበልዑ መዲብኩም ። ኣብ
                
               
-               <a href="http://www.hamburgare örnsköldsvik.se" target="_blank">hamburgareörnsköldsvik</a>  ኣቲካ እታ
+              <a href="http://www.hamburgare örnsköldsvik.se" target="_blank">hamburgareörnsköldsvik</a>ኣቲካ እታ
                 ክትከድዋ ዝሓሰብኩም እንዳ ሃምበርገር ጸሃፍ። 
             <!--Ibland kanske du vill lägga till en bild i beskrivningen.
             I så fall läger du in bilden i katalogen img.
@@ -207,17 +207,18 @@ Du behöver sedan ändra ett saker på varje sida.
 
       */
       if (answer == "max" || answer == "burger king"
-       || answer == "sibylla" || answer == "villakiosken")
-       
-       
+       || answer == "villakiosken" || answer == "sibylla" 
+       || answer == "ጸባ" || answer == "ስሞር"|| answer == "ጨው"|| answer == "ድንሽ"
+       || answer == ""|| answer == "") {
           return true;
       }else{
         document.getElementById("answer").value ="";
         document.getElementById("answer").setAttribute("placeholder","Det var tyvärr fel svar, försök igen!");
         return false;
       }
-    
+    }
   </script>
+      
 
   <!--GRATTIS Du har nu gjort uppdrag nummer två!
   Du har nu skapat en mall för en uppdragssida att utgå från.

@@ -200,19 +200,17 @@ Du behöver sedan ändra ett saker på varje sida.
 
       EX: Med två räta svar
 
-       if (answer == "svar1" || answer == "svar2" )
-      
+      if (answer == "svar1" || answer == "svar2" )
+    
       EX: Med tre rätta svar
 
       if (answer == "svar1" || answer == "svar2" answer == "svar3" )
 
       */
-
-      if (answer == "mjölk" || answer == "smör"
-       || answer == "salt" || answer == "mjölk potatis" 
-       || answer == "ጸባ" || answer == "ስሞር" || answer == "ጨው" || answer == "ድንሽ" ) }
-       )
-      ) {
+      if (answer == "mjölk" || answer == "salt"
+       || answer == "smör" || answer == "potatis mjölk" 
+       || answer == "ጸባ" || answer == "ስሞር"|| answer == "ጨው"|| answer == "ድንሽ"
+       || answer == ""|| answer == "") {
           return true;
       }else{
         document.getElementById("answer").value ="";
@@ -221,6 +219,7 @@ Du behöver sedan ändra ett saker på varje sida.
       }
     }
   </script>
+      
 
   <!--GRATTIS Du har nu gjort uppdrag nummer två!
   Du har nu skapat en mall för en uppdragssida att utgå från.
